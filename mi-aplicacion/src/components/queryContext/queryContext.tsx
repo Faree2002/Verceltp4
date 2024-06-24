@@ -1,5 +1,5 @@
 'use client'
-
+import 'dotenv/config';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { PropsWithChildren } from "react"
 

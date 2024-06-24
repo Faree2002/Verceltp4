@@ -2,7 +2,7 @@ import { HydrationBoundary, QueryClient, dehydrate } from "@tanstack/react-query
 import { Contador } from "@/components/contador";
 import { traerNumerosQuery } from "@/query/contador";
 import { mostrarNumero } from "@/servicio/contador";
-
+import 'dotenv/config';
 export const dynamic = 'force-dynamic'
 
 export default async function Home() {
