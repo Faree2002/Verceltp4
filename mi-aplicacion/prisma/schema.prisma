@@ -14,6 +14,6 @@ datasource db {
 }
 
 model Numero {
-  id:String @id @default(auto()) @map("_id") @db.ObjectId
-  numero:Int
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  numero Int
 }
